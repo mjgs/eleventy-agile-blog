@@ -1,7 +1,7 @@
 ---
 title: Refactor personal agile environment.
 description: Refactor basic personal agile environment for managing tasks.
-date: 2020-08-22
+date: Created
 tags:
   - agile
   - week34
@@ -23,13 +23,3 @@ Using VScode is in many ways better because it has lots of text editing tools so
 WikiJS might be used for more involved projects later down the line.
 
 I will at a later date figure out a better search feature.
-
-Todo:
-
-- ~~Create sprints page in notes blog~~
-- ~~Add sprints to notes blog navigation~~
-- ~~Re-arrange dir structure so files are in src and dist folders~~
-- ~~Create sprints page from sprint files in /sprints~~
-- ~~Install nunjucks vscode syntax highlighting plugin~~
-- ~~Create backlog page in notes blog~~
-- ~~Add backlog to notes blog navigation~~
