@@ -27,6 +27,7 @@ Todo:
 
 - ~~Create sprints page in notes blog~~
 - ~~Add sprints to notes blog navigation~~
+- ~~Re-arrange dir structure so files are in src and dist folders~~
 - Create sprints page from sprint files in /sprints
 - Add current sprint section on notes blog homepage
 - Create backlog page in notes blog
