@@ -4,6 +4,7 @@ description: Refactor basic personal agile environment for managing tasks.
 date: 2020-08-22
 tags:
   - agile
+  - week34
 layout: layouts/post.njk
 ---
 I made some good progress yesterday in [setting up my personal agile environment](/posts/setup-personal-agile-env).
@@ -28,7 +29,7 @@ Todo:
 - ~~Create sprints page in notes blog~~
 - ~~Add sprints to notes blog navigation~~
 - ~~Re-arrange dir structure so files are in src and dist folders~~
-- Create sprints page from sprint files in /sprints
-- Add current sprint section on notes blog homepage
+- ~~Create sprints page from sprint files in /sprints~~
+- ~~Install nunjucks vscode syntax highlighting plugin~~
 - Create backlog page in notes blog
 - Add backlog to notes blog navigation
