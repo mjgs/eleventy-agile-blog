@@ -1,0 +1,12 @@
+---
+layout: layouts/home.njk
+permalink: /sprints/
+eleventyNavigation:
+  key: Sprints
+  order: 3
+---
+
+<h1>Sprints</h1>
+
+{% set sprintslist = collections.sprints %}
+{% include "sprintslist.njk" %}
