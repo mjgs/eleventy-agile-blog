@@ -1,0 +1,12 @@
+---
+layout: layouts/home.njk
+permalink: /backlog/
+eleventyNavigation:
+  key: Backlog
+  order: 4
+---
+
+<h1>Backlog</h1>
+
+{% set backloglist = collections.backlog %}
+{% include "backloglist.njk" %}

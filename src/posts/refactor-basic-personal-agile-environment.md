@@ -31,5 +31,5 @@ Todo:
 - ~~Re-arrange dir structure so files are in src and dist folders~~
 - ~~Create sprints page from sprint files in /sprints~~
 - ~~Install nunjucks vscode syntax highlighting plugin~~
-- Create backlog page in notes blog
-- Add backlog to notes blog navigation
+- ~~Create backlog page in notes blog~~
+- ~~Add backlog to notes blog navigation~~
