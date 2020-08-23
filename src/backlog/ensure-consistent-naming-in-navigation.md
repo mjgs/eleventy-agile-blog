@@ -1,7 +1,7 @@
 ---
 title: Ensure consistent naming in navigation
 description: This is a backlog task.
-date: Created
+date: 2020-08-23 17:02:00.00 +7
 tags:
 layout: layouts/post.njk
 ---

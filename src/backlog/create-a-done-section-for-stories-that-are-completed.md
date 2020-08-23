@@ -1,7 +1,7 @@
 ---
 title: Create a done section for stories that are completed
 description: This is a backlog task.
-date: Created
+date: 2020-08-23 17:01:00.00 +7
 tags:
 layout: layouts/post.njk
 ---

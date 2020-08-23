@@ -1,7 +1,7 @@
 ---
 title: Setup personal agile environment
 description: This is a backlog task.
-date: Created
+date: 2020-08-22 17:00:00.00 +7
 tags:
 layout: layouts/post.njk
 ---
