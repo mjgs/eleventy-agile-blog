@@ -12,9 +12,9 @@ Backlog items should be called stories. Stories can contain tasks. Update file s
 
 ## Tasks
 
-- Rename /backlog to /stories
-- Update existing md files
-- Ensure navigation is called "Backlog"
+- ~~Rename /backlog to /stories~~
+- ~~Update existing md files~~
+- ~~Ensure navigation is called "Backlog"~~
 
 
 
