@@ -3,7 +3,7 @@ title: Seperate templates for posts sprints and stories
 description: This is a backlog task.
 date: 2020-08-23 17:03:00.00 +7
 tags:
-  - backlog
+  - done
 layout: layouts/story.njk
 ---
 ## Description
