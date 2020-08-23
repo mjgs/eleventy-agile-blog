@@ -4,6 +4,17 @@ templateClass: tmpl-sprint
 ---
 <h1>{{ title }}</h1>
 
+<hr>
+<ul>
+  {% for story in collections.stories %}
+    {% if story.data.tags.indexOf(title.slice(0, 6)) !== -1 %}
+      {% if story.data.tags.indexOf('done') !== -1 %}<s>{% endif %}
+  <li><a href="{{ story.url | url }}">{{ story.data.title }}</a>
+      {% if story.data.tags.indexOf('done') !== -1 %}</s>{% endif %}
+    {% endif %}
+  {% endfor %}
+</ul>
+
 {{ content | safe }}
 
 <hr>
