@@ -1,7 +1,7 @@
 ---
 title: Fine tune personal agile environment.
 description: Fine tuning the agile environment.
-date: Created
+date: 2020-08-23 17:08:00.00 +7
 tags:
   - agile
   - week34
