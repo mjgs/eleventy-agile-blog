@@ -22,4 +22,4 @@ I have created stories in the backlog for each of the above items. I also added 
 
 In a real world scenario all the stories would already be added to the current sprint during planning, but since I am using the system to build the system, it's a bit add-hock for the first few iterations as modifications are made.
 
-It would be useful and safer to have a way to automatically add a story to a sprint, perhaps by adding a tag to the story (Story added to backlog).
+It would be useful and safer to have a way to automatically add a story to a sprint, perhaps by adding a tag to the story.
