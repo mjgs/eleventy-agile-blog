@@ -3,6 +3,7 @@ title: Automatically add a story to a sprint
 description: This is a backlog task.
 date: 2020-08-23 17:00:00.00 +7
 tags:
+  - backlog
 layout: layouts/post.njk
 ---
 ## Description
