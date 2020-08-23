@@ -1,8 +1,8 @@
-<ol reversed class="postlist" style="counter-reset: start-from {{ (sprintslistCounter or sprintslist.length) + 1 }}">
+<ol reversed class="sprintslist" style="counter-reset: start-from {{ (sprintslistCounter or sprintslist.length) + 1 }}">
 {% for sprint in sprintslist | reverse %}
-  <li class="postlist-item{% if sprint.url == url %} postlist-item-active{% endif %}">
-    <a href="{{ sprint.url | url }}" class="postlist-link">{% if sprint.data.title %}{{ sprint.data.title }}{% else %}<code>{{ sprint.url }}</code>{% endif %}</a>
-    <time class="postlist-date" datetime="{{ sprint.date | htmlDateString }}">{{ sprint.date | readableDate }}</time>
+  <li class="sprintslist-item{% if sprint.url == url %} sprintslist-item-active{% endif %}">
+    <a href="{{ sprint.url | url }}" class="sprintslist-link">{% if sprint.data.title %}{{ sprint.data.title }}{% else %}<code>{{ sprint.url }}</code>{% endif %}</a>
+    <time class="sprintslist-date" datetime="{{ sprint.date | htmlDateString }}">{{ sprint.date | readableDate }}</time>
     {% for tag in sprint.data.tags %}
       {%- if collections.tagList.indexOf(tag) != -1 -%}
       {% set tagUrl %}/tags/{{ tag }}/{% endset %}

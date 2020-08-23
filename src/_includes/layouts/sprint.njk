@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-sprint
+---
+<h1>{{ title }}</h1>
+
+{{ content | safe }}
+
+<hr>
+<ul>
+  {%- set nextSprint = collections.sprints | getNextCollectionItem(page) %}
+  {%- if nextSprint %}<li>Next: <a href="{{ nextSprint.url | url }}">{{ nextSprint.data.title }}</a></li>{% endif %}
+  {%- set previousSprint = collections.sprints | getPreviousCollectionItem(page) %}
+  {%- if previousSprint %}<li>Previous: <a href="{{ previousSprint.url | url }}">{{ previousSprint.data.title }}</a></li>{% endif %}
+</ul>
