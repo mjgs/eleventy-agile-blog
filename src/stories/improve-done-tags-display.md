@@ -4,7 +4,6 @@ description: This is a backlog task.
 date: 2020-08-23 17:01:00.00 +7
 tags:
   - backlog
-  - Week34
 layout: layouts/story.njk
 ---
 ## Description
