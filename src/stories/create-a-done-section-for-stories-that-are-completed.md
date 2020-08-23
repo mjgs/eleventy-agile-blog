@@ -10,6 +10,13 @@ layout: layouts/story.njk
 
 Create a place to view done stories and a way to move stories from the backlog to the done section.
 
+## Implemntation
+
+The templates list the stories based on these tags:
+
+- Use 'backlog' tag for stories that are in the backlog
+- Use 'done' tag for stories that are done
+
 ## Tasks
 
 - Update backlog templates to only show backlog stories
