@@ -4,7 +4,7 @@ description: This is a backlog task.
 date: 2020-08-23 17:03:00.00 +7
 tags:
   - backlog
-layout: layouts/post.njk
+layout: layouts/story.njk
 ---
 ## Description
 
@@ -18,5 +18,10 @@ With seperate templates it will be easier to create custom pages that pull in an
 
 ## Tasks
 
-- Create Story template
 - Create Sprint template
+- Create Sprints template
+- Create Story template
+- Create Storis template
+- Update stylesheets
+- Update existing md files meta
+- Update paths used in addPassthroughCopy invocations

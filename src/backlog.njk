@@ -1,5 +1,5 @@
 ---
-layout: layouts/home.njk
+layout: layouts/stories.njk
 permalink: /stories/
 eleventyNavigation:
   key: Backlog
@@ -8,5 +8,5 @@ eleventyNavigation:
 
 <h1>Backlog</h1>
 
-{% set backloglist = collections.backlog %}
-{% include "backloglist.njk" %}
+{% set storieslist = collections.stories %}
+{% include "storieslist.njk" %}

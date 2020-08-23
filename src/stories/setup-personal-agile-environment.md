@@ -4,7 +4,7 @@ description: This is a backlog task.
 date: 2020-08-22 17:00:00.00 +7
 tags:
   - done
-layout: layouts/post.njk
+layout: layouts/story.njk
 ---
 
 ## Blog posts

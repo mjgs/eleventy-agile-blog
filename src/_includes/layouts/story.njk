@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-story
+---
+<h1>{{ title }}</h1>
+
+{{ content | safe }}
+
+<hr>
+<ul>
+  {%- set nextStory = collections.stories | getNextCollectionItem(page) %}
+  {%- if nextStory %}<li>Next: <a href="{{ nextStory.url | url }}">{{ nextStory.data.title }}</a></li>{% endif %}
+  {%- set previousStory = collections.stories | getPreviousCollectionItem(page) %}
+  {%- if previousStory %}<li>Previous: <a href="{{ previousStory.url | url }}">{{ previousStory.data.title }}</a></li>{% endif %}
+</ul>
