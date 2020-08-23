@@ -11,4 +11,7 @@ layout: layouts/story.njk
 
 Create a way to add a story in the backlog to a specific sprint. 
 
+## Implementation
+
+Add a tag with the sprint name and the sprint template then renders all stories with that tag. Completed stories have a strikethrough.
 
