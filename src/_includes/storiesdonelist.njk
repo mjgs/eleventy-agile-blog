@@ -1,0 +1,18 @@
+<ol reversed class="storieslist" style="counter-reset: start-from {{ (storieslistCounter or storieslist.length) + 1 }}">
+{% for story in storieslist | reverse %}
+  {%- if story.data.tags.indexOf('done') != -1 -%}
+
+  <li class="storieslist-item{% if task.url == url %} storieslist-item-active{% endif %}">
+    <a href="{{ story.url | url }}" class="storieslist-link">{% if story.data.title %}{{ story.data.title }}{% else %}<code>{{ story.url }}</code>{% endif %}</a>
+    <time class="storieslist-date" datetime="{{ story.date | htmlDateString }}">{{ story.date | readableDate }}</time>
+    {% for tag in story.data.tags %}
+      {%- if collections.tagList.indexOf(tag) != -1 -%}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+  </li>
+
+  {%- endif -%}
+{% endfor %}
+</ol>

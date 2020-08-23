@@ -1,0 +1,12 @@
+---
+layout: layouts/stories.njk
+permalink: /done/
+eleventyNavigation:
+  key: Done
+  order: 5
+---
+
+<h1>Backlog</h1>
+
+{% set storieslist = collections.stories %}
+{% include "storiesdonelist.njk" %}
