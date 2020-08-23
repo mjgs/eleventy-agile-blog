@@ -15,3 +15,8 @@ Create a way to add a story in the backlog to a specific sprint.
 
 Add a tag with the sprint name and the sprint template then renders all stories with that tag. Completed stories have a strikethrough.
 
+## Tasks
+
+- ~~Update sprint temaplate~~
+- ~~Update existing story files~~
+- ~~Update existing sprint files~~
