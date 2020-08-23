@@ -18,10 +18,10 @@ With seperate templates it will be easier to create custom pages that pull in an
 
 ## Tasks
 
-- Create Sprint template
-- Create Sprints template
-- Create Story template
-- Create Storis template
-- Update stylesheets
-- Update existing md files meta
-- Update paths used in addPassthroughCopy invocations
+- ~~Create Sprint template~~
+- ~~Create Sprints template~~
+- ~~Create Story template~~
+- ~~Create Storis template~~
+- ~~Update stylesheets~~
+- ~~Update existing md files meta~~
+- ~~Update paths used in addPassthroughCopy invocations~~
