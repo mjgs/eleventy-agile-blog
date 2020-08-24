@@ -3,7 +3,7 @@ title: Ensure creating new sprints is as expected
 description: This is a backlog task.
 date: 2020-08-24 17:25:00.00 +7
 tags:
-  - backlog
+  - done
   - Week35
 layout: layouts/story.njk
 ---
