@@ -3,7 +3,7 @@ title: Completed first sprint.
 description: Completed first sprint.
 date: 2020-08-24 17:17:00.00 +7
 tags:
-  - agile
+  - Week34
 layout: layouts/post.njk
 ---
 I completed the [first sprint yesterday](/sprints/Week_34-2020_08_17-2020_08_23/). All stories were completed.

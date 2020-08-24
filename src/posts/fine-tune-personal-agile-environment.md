@@ -3,7 +3,6 @@ title: Fine tune personal agile environment.
 description: Fine tuning the agile environment.
 date: 2020-08-23 17:30:00.00 +7
 tags:
-  - agile
   - week34
 layout: layouts/post.njk
 ---
