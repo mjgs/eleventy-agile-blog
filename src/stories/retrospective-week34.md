@@ -5,6 +5,7 @@ date: 2020-08-24 17:27:00.00 +7
 tags:
   - done
   - Week34
+  - retrospective
 layout: layouts/story.njk
 ---
 ## Description
