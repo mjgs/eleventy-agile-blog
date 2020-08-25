@@ -1,78 +1,67 @@
-# eleventy-base-blog
+# eleventy-agile-blog
 
-A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
+Another minimal blog template using [Eleventy](https://github.com/11ty/eleventy), this one implements a simple agile development workflow so you can get stuff done.
 
-[![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
+Of course there are lots of great tools for managing agile development and if you are working in teams you should most likely use those. 
+
+But this project is a great way to manage your own development.
+
+- Everything is managed in files
+- Never worry about your workflow breaking because of software incompatibility
+- Build your muscle memory of the agile development process
+
+You can run it locally or deploy on something like netlify if you want to have everything public.
+
+Use it for managing writting code or just for managing any set of tasks you need to complete.
+
+I don't claim to be in any way an expert in the agile way. There are probably places where it's not "the agile" way. I'm open to pull requests.
+
+Stop procrastinating, write a blog post, re-focus on what you need to get done, then do it.
+
+## Based on the eleventy-base-blog repo
+
+I have based this repo on the [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog), the biggest obvious difference is files are in src and dist folders. I find that makes it easier to jump around the project quickly.
 
 ## Demos
 
-* [Netlify](https://eleventy-base-blog.netlify.com/)
-* [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
-* [Remix on Glitch](https://glitch.com/~11ty-eleventy-base-blog)
-
-## Deploy this to your own site
-
-These builders are amazing—try them out to get your own Eleventy site in a few clicks!
-
-* [Get your own Eleventy web site on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
-* [Get your own Eleventy web site on Vercel](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
+* [Netlify](https://tbd.netlify.com)
 
 ## Getting Started
 
-### 1. Clone this Repository
-
 ```
-git clone https://github.com/11ty/eleventy-base-blog.git my-blog-name
-```
-
-
-### 2. Navigate to the directory
-
-```
-cd my-blog-name
-```
-
-Specifically have a look at `.eleventy.js` to see if you want to configure any Eleventy options differently.
-
-### 3. Install dependencies
-
-```
+git clone https://github.com/11ty/eleventy-agile-blog.git my-blog-name
+cd my-blog-name # Update `.eleventy.js` with your details
 npm install
+npm start
 ```
 
-### 4. Edit _data/metadata.json
+## How the agile dev workflow works
 
-### 5. Run Eleventy
+Use blog posts to narrate your work, what you did, what you are about to do, then create "stories" that you add to the "backlog". Assign stories to "sprints", these last 1 week. Flesh out the stories, implement them, and then move these to "done" when you complete them. 
 
-```
-npx eleventy
-```
+At the end of the week do a retrospective of what you did, and plan (i.e. create and assign stories to the next sprint) for the upcomming week.
 
-Or build and host locally for local development
-```
-npx eleventy --serve
-```
+Whenever you are a bit unsure of your path, read the above paragraph. You probably need to write a blog post.
 
-Or build automatically when a template changes:
-```
-npx eleventy --watch
-```
+Home - Shows the past 3 blog posts and some useful links
+Archive - Shows all you blog posts
+Sprints - Shows all you sprints
+Backlog - Shows all your uncompleted stories
+Done - Shows all your completed stories
 
-Or in debug mode:
-```
-DEBUG=* npx eleventy
-```
+Read the workflow description from the [week34 retrospective](/stories/retrospective-week34/#workflow) to get a better idea of how I am using the blog.
 
-### Implementation Notes
+## Notes
 
-* `about/index.md` shows how to add a content page.
-* `posts/` has the blog posts but really they can live in any directory. They need only the `post` tag to be added to this collection.
-* Add the `nav` tag to add a template to the top level site navigation. For example, this is in use on `index.njk` and `about/index.md`.
-* Content can be any template format (blog posts needn’t be markdown, for example). Configure your supported templates in `.eleventy.js` -> `templateFormats`.
-	* Because `css` and `png` are listed in `templateFormats` but are not supported template types, any files with these extensions will be copied without modification to the output (while keeping the same directory structure).
-* The blog post feed template is in `feed/feed.njk`. This is also a good example of using a global data files in that it uses `_data/metadata.json`.
-* This example uses three layouts:
-  * `_includes/layouts/base.njk`: the top level HTML structure
-  * `_includes/layouts/home.njk`: the home page template (wrapped into `base.njk`)
-  * `_includes/layouts/post.njk`: the blog post template (wrapped into `base.njk`)
-* `_includes/postlist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `index.njk` has an example of how to use it.
+- Sprints in /sprints must use the same file name pattern
+- Add tag 'backlog' to a story to add it to the backlog page
+- Add tag 'done' to a story to add it to the done page
+- Regulary check in your changes to git
+  - Create a week branch (e.g. week34)
+  - Create story branches from your week branch
+  - Merge story branches into the week branch
+  - Merge week branches back into master
+- Read up on how eleventy works so you can customise the blog
+- You might want to add some git aliases to your shell to streamline working with git commands
+
+Hopefully my description makes some sense, let me know how I could improve these docs.
