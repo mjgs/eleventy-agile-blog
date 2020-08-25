@@ -24,7 +24,7 @@ I have based this repo on the [eleventy-base-blog](https://github.com/11ty/eleve
 
 ## Demos
 
-* [Netlify](https://tbd.netlify.com)
+* [Netlify](https://festive-haibt-b7ead0.netlify.app)
 
 ## Getting Started
 
