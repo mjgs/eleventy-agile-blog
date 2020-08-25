@@ -19,7 +19,7 @@ In the interest of time, the best way is just to create a totally seperate proje
 
 ## Tasks
 
-- Remove any personal info from repo
+- ~~Remove any personal info from repo~~
 - Add README.md
 - Create github repo
 - Add github repo as a remote
