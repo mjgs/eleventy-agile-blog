@@ -3,7 +3,7 @@ title: Create github project
 description: This is a backlog task.
 date: 2020-08-24 17:30:00.00 +7
 tags:
-  - backlog
+  - done
   - Week35
 layout: layouts/story.njk
 ---
@@ -20,7 +20,7 @@ In the interest of time, the best way is just to create a totally seperate proje
 ## Tasks
 
 - ~~Remove any personal info from repo~~
-- Update the README.md
-- Create github repo
-- Add github repo as a remote
-- Push to github remote
+- ~~Update the README.md~~
+- ~~Create github repo~~
+- ~~Add github repo as a remote~~
+- ~~Push to github remote~~
