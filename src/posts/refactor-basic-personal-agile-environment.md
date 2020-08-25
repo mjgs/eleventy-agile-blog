@@ -3,7 +3,7 @@ title: Refactor personal agile environment.
 description: Refactor basic personal agile environment for managing tasks.
 date: 2020-08-22 17:00:00.00 +7
 tags:
-  - week34
+  - Week34
 layout: layouts/post.njk
 ---
 I made some good progress yesterday in [setting up my personal agile environment](/posts/setup-personal-agile-env).
