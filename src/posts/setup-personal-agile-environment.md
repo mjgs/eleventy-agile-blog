@@ -3,7 +3,7 @@ title: Setup personal agile environment.
 description: Setup a basic personal agile environment for managing tasks.
 date: 2020-08-21 17:00:00.00 +7
 tags:
-  - week34
+  - Week34
 layout: layouts/post.njk
 ---
 The aim of the personal agile environment is to manage daily tasks in an agile way. The environment should be simple to setup and maintain.
