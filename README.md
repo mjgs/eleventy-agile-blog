@@ -43,11 +43,11 @@ At the end of the week do a retrospective of what you did, and plan (i.e. create
 
 Whenever you are a bit unsure of your path, read the above paragraph. You probably need to write a blog post.
 
-Home - Shows the past 3 blog posts and some useful links
-Archive - Shows all you blog posts
-Sprints - Shows all you sprints
-Backlog - Shows all your uncompleted stories
-Done - Shows all your completed stories
+- Home - Shows the past 3 blog posts and some useful links
+- Archive - Shows all you blog posts
+- Sprints - Shows all you sprints
+- Backlog - Shows all your uncompleted stories
+- Done - Shows all your completed stories
 
 Read the workflow description from the [week34 retrospective](/stories/retrospective-week34/#workflow) to get a better idea of how I am using the blog.
 
