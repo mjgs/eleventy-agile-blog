@@ -54,7 +54,7 @@ The blog has the following pages:
 - Done - Shows all your completed stories
 - About Me - A place to add contact details and personal info
 
-Read the workflow description from the [week34 retrospective](/stories/retrospective-week34/#workflow) to get a better idea of how I am using the blog.
+Read the workflow description from the [week34 retrospective](https://festive-haibt-b7ead0.netlify.app/stories/retrospective-week34/) to get a better idea of how I am using the blog.
 
 ## Notes
 
