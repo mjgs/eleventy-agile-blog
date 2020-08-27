@@ -1,6 +1,6 @@
 # eleventy-agile-blog
 
-Another minimal blog template using [Eleventy](https://github.com/11ty/eleventy), this one implements a simple agile development workflow so you can get stuff done.
+A minimal blog template using [Eleventy](https://github.com/11ty/eleventy), this one implements a simple agile development workflow so you can get stuff done.
 
 ## Description
 
