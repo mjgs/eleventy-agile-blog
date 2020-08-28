@@ -39,7 +39,7 @@ npm start
 
 ## How the agile development workflow works
 
-Use blog posts to narrate your work, what you did, what you are about to do, then create "stories" that you add to the "backlog". Assign stories to "sprints", these last 1 week. Flesh out the stories, implement them, and then move these to "done" when you complete them. 
+Use blog posts to describe your work, what you did, what you are about to do, then create "stories" that you add to the "backlog". Assign stories to "sprints", these last 1 week. Flesh out the stories, implement them, and then move these to "done" when you complete them. 
 
 At the end of the week do a retrospective of what you did, and plan (i.e. create and assign stories to the next sprint) for the upcomming week.
 
