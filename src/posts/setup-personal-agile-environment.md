@@ -10,7 +10,7 @@ The aim of the personal agile environment is to manage daily tasks in an agile w
 
 Components:
 
-1. Blog to narrate work as it happens
+1. Blog to describe work as it happens
 2. Wiki to manage sprint details
 
 The blog [homepage](/) has links to the 3 most recent blog posts, as well as links to the sprint wiki pages. It also has an archive of all posts.
