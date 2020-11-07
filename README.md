@@ -26,7 +26,7 @@ I have based this repo on the [eleventy-base-blog](https://github.com/11ty/eleve
 
 ## Demos
 
-* [Netlify](https://festive-haibt-b7ead0.netlify.app)
+* [eleventy-agile-blog.markjgsmith.com](https://eleventy-agile-blog.markjgsmith.com)
 
 ## Getting Started
 
